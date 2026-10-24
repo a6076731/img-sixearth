@@ -25,13 +25,13 @@ body{
 /* ---------- 顶部 ---------- */
 .head{
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 16px;
   padding: max(26px, env(safe-area-inset-top)) var(--pad) 18px;
 }
 
-.brand{ display: flex; align-items: baseline; gap: 10px; }
+.brand{ display: flex; align-items: center; gap: 10px; }
 
 .brand-title{
   font-size: clamp(20px, 2.4vw, 26px);
@@ -45,21 +45,34 @@ body{
   font-variant-numeric: tabular-nums;
 }
 
-.nav{ display: flex; gap: 18px; }
+/* 导航胶囊：与首页同一套形状与尺寸，只把配色换成浅色版 */
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .62);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
 
 .nav a{
+  display: block;
+  padding: 7px 16px;
+  border-radius: 999px;
   color: var(--ink-soft);
   text-decoration: none;
-  font-size: 13.5px;
-  padding-bottom: 2px;
-  border-bottom: 1px solid transparent;
-  transition: color .18s ease, border-color .18s ease;
+  font-size: 13px;
+  letter-spacing: .06em;
+  transition: background .2s ease, color .2s ease;
 }
 
 .nav a:hover,
 .nav a:focus-visible{
+  background: rgba(44, 44, 42, .08);
   color: var(--ink);
-  border-bottom-color: var(--ink);
 }
 
 /* ---------- 照片墙 ---------- */
