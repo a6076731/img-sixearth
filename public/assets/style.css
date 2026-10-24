@@ -90,6 +90,13 @@ body{
 @media (max-width: 1100px){ .wall{ column-count: 2; } }
 @media (max-width: 620px){ .wall{ column-count: 1; } }
 
+/* 窄屏：四个入口一行放不下，「来信」收成只剩信封图标 */
+@media (max-width: 620px){
+  .nav a{ padding: 6px 11px; font-size: 12.5px; letter-spacing: .02em; }
+  .nav a.nav-mail{ gap: 0; padding: 6px 9px; }
+  .nav-mail-label{ display: none; }
+}
+
 .shot{
   break-inside: avoid;
   display: block;
@@ -157,33 +164,19 @@ body{
   margin-top: 10px;
 }
 
-.mail{
+/* ---------- 导航末尾的来信入口 ---------- */
+.nav a.nav-mail{
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 5px 12px 5px 10px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--card);
-  color: var(--ink-soft);
-  text-decoration: none;
-  font-size: 12px;
-  letter-spacing: .04em;
-  transition: background .2s ease, color .2s ease, border-color .2s ease;
+  padding: 7px 14px 7px 12px;
 }
 
-.mail svg{
+.nav a.nav-mail svg{
   width: 12px;
   height: 12px;
   flex: none;
-  opacity: .7;
-}
-
-.mail:hover,
-.mail:focus-visible{
-  background: #fff;
-  border-color: var(--ink-faint);
-  color: var(--ink);
+  opacity: .75;
 }
 
 /* ---------- 灯箱 ---------- */
