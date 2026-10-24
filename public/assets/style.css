@@ -75,6 +75,11 @@ body{
   color: var(--ink);
 }
 
+.nav a.is-current{
+  background: rgba(44, 44, 42, .10);
+  color: var(--ink);
+}
+
 /* ---------- 照片墙 ---------- */
 .wall{
   column-count: 3;
