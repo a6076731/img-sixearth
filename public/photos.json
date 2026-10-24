@@ -1,0 +1,117 @@
+{
+  "generated": "2026-10-24 22:35",
+  "count": 10,
+  "dated": 2,
+  "photos": [
+    {
+      "src": "photos/p005.jpg",
+      "w": 1600,
+      "h": 1131,
+      "date": "2020-03-31",
+      "time": "00:10",
+      "stamp": "202003310010",
+      "dateSource": "exif",
+      "title": "5",
+      "bytes": 202735
+    },
+    {
+      "src": "photos/p006.jpg",
+      "w": 1600,
+      "h": 900,
+      "date": "2013-03-24",
+      "time": "12:49",
+      "stamp": "201303241249",
+      "dateSource": "exif",
+      "title": "6",
+      "bytes": 123887
+    },
+    {
+      "src": "photos/p001.jpg",
+      "w": 1600,
+      "h": 900,
+      "date": "",
+      "time": "",
+      "stamp": "",
+      "dateSource": "none",
+      "title": "1",
+      "bytes": 114213
+    },
+    {
+      "src": "photos/p002.jpg",
+      "w": 1600,
+      "h": 1067,
+      "date": "",
+      "time": "",
+      "stamp": "",
+      "dateSource": "none",
+      "title": "2",
+      "bytes": 238421
+    },
+    {
+      "src": "photos/p003.jpg",
+      "w": 690,
+      "h": 1227,
+      "date": "",
+      "time": "",
+      "stamp": "",
+      "dateSource": "none",
+      "title": "3",
+      "bytes": 182400
+    },
+    {
+      "src": "photos/p004.jpg",
+      "w": 690,
+      "h": 1227,
+      "date": "",
+      "time": "",
+      "stamp": "",
+      "dateSource": "none",
+      "title": "4",
+      "bytes": 159169
+    },
+    {
+      "src": "photos/p007.jpg",
+      "w": 1600,
+      "h": 900,
+      "date": "",
+      "time": "",
+      "stamp": "",
+      "dateSource": "none",
+      "title": "7",
+      "bytes": 100817
+    },
+    {
+      "src": "photos/p008.jpg",
+      "w": 1600,
+      "h": 897,
+      "date": "",
+      "time": "",
+      "stamp": "",
+      "dateSource": "none",
+      "title": "【哲风壁纸】咖啡屋-夏日-插画",
+      "bytes": 353060
+    },
+    {
+      "src": "photos/p009.jpg",
+      "w": 300,
+      "h": 300,
+      "date": "",
+      "time": "",
+      "stamp": "",
+      "dateSource": "none",
+      "title": "头像1",
+      "bytes": 13040
+    },
+    {
+      "src": "photos/p010.jpg",
+      "w": 640,
+      "h": 640,
+      "date": "",
+      "time": "",
+      "stamp": "",
+      "dateSource": "none",
+      "title": "头像2",
+      "bytes": 31133
+    }
+  ]
+}

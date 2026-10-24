@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>相册 · Six Earth</title>
+<meta name="description" content="一些拍下的瞬间。">
+<meta name="theme-color" content="#f1efe8">
+<link rel="canonical" href="https://img.sixearth.cn/">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<header class="head">
+  <div class="brand">
+    <span class="brand-title">相册</span>
+    <span class="brand-count" id="count"></span>
+  </div>
+  <nav class="nav">
+    <a href="https://blog.sixearth.cn/">博客</a>
+    <a href="https://sixearth.cn/">首页</a>
+  </nav>
+</header>
+
+<main class="wall" id="wall" aria-label="照片列表"></main>
+
+<p class="empty" id="empty" hidden>还没有照片。</p>
+
+<footer class="foot" id="foot"></footer>
+
+<dialog class="lb" id="lb">
+  <div class="lb-bar">
+    <span class="lb-date" id="lbDate"></span>
+    <button class="lb-close" id="lbClose" type="button" aria-label="关闭">&times;</button>
+  </div>
+  <img class="lb-img" id="lbImg" alt="">
+  <div class="lb-tools">
+    <button class="lb-nav" id="lbPrev" type="button" aria-label="上一张">&#8249;</button>
+    <span class="lb-pos" id="lbPos"></span>
+    <button class="lb-nav" id="lbNext" type="button" aria-label="下一张">&#8250;</button>
+  </div>
+</dialog>
+
+<script src="/assets/app.js" defer></script>
+</body>
+</html>
