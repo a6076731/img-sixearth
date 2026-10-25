@@ -34,7 +34,7 @@ body{
 .brand{ display: flex; align-items: center; gap: 10px; }
 
 .brand-link{ display: flex; align-items: center; }
-.brand-link img{ display: block; height: 28px; width: auto; }
+.brand-link img{ display: block; height: 32px; width: auto; image-rendering: pixelated; }
 .brand .brand-mark{ display: none; }
 
 .brand-title{
@@ -101,7 +101,7 @@ body{
   .nav-mail-label{ display: none; }
   /* 锁定组合太宽，窄屏只留记号 */
   .brand .brand-lockup{ display: none; }
-  .brand .brand-mark{ display: block; height: 22px; }
+  .brand .brand-mark{ display: block; height: 28px; }
 }
 
 .shot{
